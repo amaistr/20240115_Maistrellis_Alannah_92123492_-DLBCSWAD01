@@ -1,0 +1,67 @@
+
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+    color: rgb(from color r g b);}
+
+    h2 {
+      text-align: center;
+    }
+
+  /* Apply a blurry background */
+  /*The background image is a picture of a keyboard*/
+  body {
+    background: rgba(255, 255, 255, 0.7)  url("https://live.staticflickr.com/197/517966692_d5e100b039_b.jpg") no-repeat center center fixed;
+    background-size: cover;
+  }
+  
+  /* Style the header */
+  header {
+    text-align: center;
+    padding: 20px;
+    background-color:  rgba(255, 255, 255, 0.8);
+  } 
+  
+  
+  /* Style the main content */
+  main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgba(149,175,226,255);
+  }
+  
+  /* Style the form */
+  form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: #f8f8f8;
+  }
+  
+  label {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  input[type="checkbox"] {
+    margin-right: 10px;
+  }
+  
+  label span {
+    display: inline-block;
+    margin-left: 10px;
+  }
+  
+  #delivery-address, #collection-details {
+    display: none;
+  }
+  
+  /* Style the footer */
+  footer {
+    text-align: center;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.8);
+  } 

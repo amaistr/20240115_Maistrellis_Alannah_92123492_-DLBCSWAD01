@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <title>WAP Project</title>
+  <link rel="stylesheet" href="WAP%20Project_files/style.css">
+</head>
+
+<body>
+  <header>
+    <h1>Order your computer parts here!</h1>
+  </header>
+
+  <main>
+    <form id="order-form">
+      <h2>Computer Parts Order Form</h2>
+  
+      <!-- Personal Information Section -->
+      <h3>Personal Information</h3>
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required="">
+      
+      <label for="phone">Phone Number:</label>
+      <input type="tel" id="phone" name="phone" required="">
+      
+      <label for="email">Email Address:</label>
+      <input type="email" id="email" name="email" required="">
+  
+      <!-- Computer Parts Order Section -->
+      <h3>Computer Parts Order</h3>
+      <label for="os">Operating System:</label>
+      <select id="os" name="os">
+        <option value="windows" selected="selected">Windows</option>
+        <option value="mac">Mac</option>
+        <option value="linux">Linux</option>
+      </select>
+  
+      <h4>Hardware Parts:</h4>
+      <label for="keyboard">
+        <input type="checkbox" id="keyboard" name="parts[]" value="keyboard">
+        Keyboard
+      </label>
+      
+      <label for="monitor">
+        <input type="checkbox" id="monitor" name="parts[]" value="monitor">
+        Monitor
+      </label>
+      
+      <label for="mouse">
+        <input type="checkbox" id="mouse" name="parts[]" value="mouse">
+        Mouse
+      </label>
+      
+      <label for="harddrive">
+        <input type="checkbox" id="harddrive" name="parts[]" value="harddrive">
+        HDD 500GB
+      </label>
+
+      <button type="submit">Submit Order</button>
+
+    
+  </form></main>
+
+  <footer>
+    <p>Contact: alannah-maistrellis@iu-study.org</p><br>
+    <p>
+      Background image:<br>
+      Photo by <a href="https://www.flickr.com/photos/jrmoraes/">Jose Roberto V Moraes</a> on Flickr<br>
+      Licensed under Creative Commons <a href="https://creativecommons.org/licenses/by/2.0/">Attribution 2.0 Generic (CC BY 2.0)</a><br>
+      Original image: <a href="https://www.flickr.com/photos/jrmoraes/517966692/">https://www.flickr.com/photos/jrmoraes/517966692/</a>
+    </p>
+  </footer>
+
+  <script src="WAP%20Project_files/script.js"></script>
+
+
+</body></html>
